@@ -1,0 +1,64 @@
+/* CSS styles (styles.css) */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #0e0b01;
+   
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #084b0d;
+    border: red;
+    background-image:url(" https://burst.shopifycdn.com/photos/blue-ink-explosion.jpg?width=373&format=pjpg&exif=1&iptc=1;")
+}
+
+.container {
+    display: flex;
+    
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #1a045e;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+kbd {
+    font-weight: bold;
+}
+
+.sound {
+    font-size: 14px;
+    color:rgb(33, 1, 1);
+}
+
+.playing {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #e5b91b;
+    border-color: #ffc600;
+}
+
+/* Optional: Add hover effect */
+.key:hover {
+    background-color:rgb(6, 161, 153);
+}
+
+/* Optional: Add active effect when clicked */
+.key:active {
+    background-color: #250559;
+}
